@@ -67,7 +67,7 @@ ehthumbs_vista.db
 *.tgz
 
 # Diretório de build, caso você decida usar TypeScript no futuro
-/dist
+
 /build
 
 # ===================================================================
