@@ -16,5 +16,5 @@ inputs:
 
 # Define como a sua Action será executada
 runs:
-  using: "node20" # Usaremos Node.js, a opção mais comum e eficiente
-  main: "dist/index.js" # O ponto de entrada do nosso código
+  using: "node20"
+  main: "dist/index.js"
