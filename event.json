@@ -1,0 +1,14 @@
+{
+  "alert": {
+    "number": 2,
+    "dependency": {
+      "package": {
+        "name": "lodash"
+      }
+    },
+    "severity": "high"
+  },
+  "repository": {
+    "full_name": "cabraldasilvac/security-alert-notifier-action"
+  }
+}

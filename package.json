@@ -1,0 +1,18 @@
+{
+  "name": "security-alert-notifier-action",
+  "version": "1.0.0",
+  "description": "Sends security alert notifications to Slack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist --source-map --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/github": "^5.1.1",
+    "@slack/web-api": "^6.8.1"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@vercel/ncc": "^0.36.1"
+  }
+}

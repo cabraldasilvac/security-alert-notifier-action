@@ -1,0 +1,78 @@
+# ===================================================================
+# Arquivos de Dependências e Build
+# Ignora a pasta de módulos do Node.js e outros artefatos de build.
+# ===================================================================
+node_modules/
+/dist
+/build
+*.tgz
+
+# ===================================================================
+# Arquivos de Log
+# Ignora logs gerados durante o desenvolvimento ou execução.
+# ===================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===================================================================
+# Arquivos de Ambiente Local (MUITO IMPORTANTE PARA SEGURANÇA)
+# Nunca faça commit de arquivos .env, pois eles contêm segredos
+# como tokens de API. Use um arquivo .env.example para mostrar
+# quais variáveis são necessárias.
+# ===================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.secrets
+# ===================================================================
+# Configurações de IDEs e Editores de Código
+# Ignora arquivos de configuração específicos da máquina do desenvolvedor.
+# ===================================================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===================================================================
+# Arquivos gerados pelo Sistema Operacional
+# Ignora arquivos de metadados do macOS, Windows, etc.
+# =================================a==================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+._*
+.Spotlight-V100
+.Trashes
+
+# ===================================================================
+# Arquivos de Dependências e Build (Opcional, mas boa prática)
+# Embora façamos commit de node_modules, podemos ignorar outros
+# artefatos de build ou pacotes.
+# ===================================================================
+# Se você usar 'npm pack', ele cria um arquivo .tgz
+*.tgz
+
+# Diretório de build, caso você decida usar TypeScript no futuro
+/dist
+/build
+
+# ===================================================================
+# Relatórios de Teste e Cobertura de Código
+# Se você adicionar testes, os relatórios gerados não devem ir para o repo.
+# ===================================================================
+/coverage
+.nyc_output
