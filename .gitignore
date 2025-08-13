@@ -3,7 +3,7 @@
 # Ignora a pasta de módulos do Node.js e outros artefatos de build.
 # ===================================================================
 node_modules/
-/dist
+
 /build
 *.tgz
 
