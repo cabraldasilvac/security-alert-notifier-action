@@ -1,0 +1,16 @@
+# action.yml
+name: "Security Alert Notifier"
+description: "Watches for security events and sends a notification to a Slack channel."
+author: "Wanderley Cabral"
+
+inputs:
+  slack-channel-id:
+    description: "The ID of the Slack channel to send the notification to."
+    required: true
+  slack-message:
+    description: "The message to send. You can use context variables."
+    required: true
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
