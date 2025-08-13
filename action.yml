@@ -18,3 +18,4 @@ inputs:
 runs:
   using: "node20"
   main: "dist/index.js"
+# Trivial change to force cache invalidation
